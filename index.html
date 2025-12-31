@@ -8,56 +8,17 @@
     <script src="./index.js"></script>
 </head>
 <body>
-    <div class="popup-box">
-      <div class="popup">
-        <div class="content">
-          <header>
-            <p>Add a new Note</p>
-            <i class="ri-close-fill"></i>
-          </header>
-          <form action="">
-            <div class="row title">
-              <label for="">Title</label>
-              <input type="text" name="" id="">
-            </div>
-            <div class="row description">
-              <label for="">Description</label>
-              <textarea></textarea>
-            </div>
-            <button>Add Note</button>
-          </form>
-        </div>
-      </div>
+    <div class="calculator-container">
+        <h2>Add Two Numbers</h2>
+        <input type="number" id="firstNumber" placeholder="Enter first number">
+        <input type="number" id="secondNumber" placeholder="Enter second number">
+        <button onclick="calculateSum()">Calculate</button>
+        <p>Result: <span id="result">0</span></p>
     </div>
-    <div class="wrapper">
-      <li class="add-box">
-        <div class="icon"><i class="ri-add-fill"></i></div>
-        <p>Add new note</p>
-      </li>
-      <li class="note">
-        <div class="details">
-          <p>This is Title</p>
-          <span
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            neque.</span
-          >
-        </div>
-        <div class="bottom-content">
-          <span>April 3, 2022</span>
-          <div class="settings">
-            <i class="ri-more-fill"></i>
-            <ul class="menu">
-              <li><i class="ri-pencil-line"></i>Edit</li>
-              <li><i class="ri-delete-bin-7-line"></i>Delete</li>
-
-            </ul>
-          </div>
-        </div>
-      </li>
-
-    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
+
 
 
 
